@@ -14,7 +14,7 @@ namespace oopsexample_MethodOverriding
         }
         public void display()//normal method we can't overirde with out virtual keyword
         {
-            Console.WriteLine("i am from display ");
+            Console.WriteLine("i am from display ");//without virtual keyword we cannot override the method in child class
         }
     }
 }
